@@ -1,5 +1,6 @@
 import OverviewContent from "./OverviewContent";
 import OverviewGrad from "./OverviewGrad";
+import SkewedContainer from "./SkewedContainer";
 
 const Overview = () => {
     return (
@@ -8,9 +9,11 @@ const Overview = () => {
                 <OverviewGrad />
             </div>
 
-            <div className="bg-[#EDEFFF] -skew-y-2 h-[70.63rem]">
-                <OverviewContent />
-            </div>
+            <SkewedContainer
+                children={<OverviewContent />}
+                bgColor="bg-[#EDEFFF]"
+                height="h-[70.63rem]"
+            />
         </div>
     );
 };

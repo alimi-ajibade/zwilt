@@ -7,7 +7,7 @@ import BoundedArrow from "./BoundedArrow";
 
 const OverviewContent = () => {
     return (
-        <div className="skew-y-2 pt-[11.44rem]">
+        <div className="pt-[11.44rem]">
             <div className="w-[61.06rem] h-32 mx-auto">
                 <h1 className={`${styles.sectionHeader}`}>
                     Your one-stop marketplace for finding the talent your
@@ -37,7 +37,7 @@ const OverviewContent = () => {
                 <div className="flex flex-row items-center gap-x-3">
                     <BoundedArrow
                         bgColor="bg-black"
-                        color="#EDEFFF"
+                        arrowColor="#EDEFFF"
                         size="size-[4.63rem]"
                         radius="rounded-3xl"
                     />

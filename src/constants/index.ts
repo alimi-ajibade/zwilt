@@ -13,6 +13,10 @@ import photoshop from "../assets/technologies/photoshop.png";
 import shopify from "../assets/technologies/shopify.png";
 import unreal from "../assets/technologies/unreal.png";
 import webflow from "../assets/technologies/webflow.png";
+import quotes from "../assets/quote.svg";
+import jasonAvatar from "../assets/avatar.png";
+import groovehq from "../assets/groovehq.svg";
+import groovesm from "../assets/groovesm.svg";
 
 const navlinks = [
     "Find Work",
@@ -75,4 +79,25 @@ const design = [
     },
 ];
 
-export { logo, heroImage, navlinks, jobs, stats, development, design };
+const testimonial = {
+    name: "Jason Makki",
+    post: "Engineer at GROOVE",
+    location: "San Francisco",
+    testmonial:
+        "Zwilt enabled us to deliver on time and they’ve been heavy hitters in our corner since. Zwilt enabled us to deliver on time and they’ve been heavy hitters in our corner since. Zwilt enabled us to deliver on time and they’ve been heavy hitters.",
+};
+
+export {
+    logo,
+    heroImage,
+    navlinks,
+    jobs,
+    stats,
+    development,
+    design,
+    quotes,
+    jasonAvatar,
+    groovehq,
+    groovesm,
+    testimonial,
+};

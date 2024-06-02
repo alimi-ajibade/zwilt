@@ -1,13 +1,15 @@
 interface Props {
     direction?: string;
     color: string;
+    width?: string;
+    height?: string;
 }
 
-const Arrow = ({ direction, color }: Props) => {
+const Arrow = ({ direction, color, width, height }: Props) => {
     return (
         <svg
-            width="25"
-            height="15"
+            width={width || 25}
+            height={height || 15}
             viewBox="0 0 35 23"
             fill=""
             xmlns="http://www.w3.org/2000/svg"

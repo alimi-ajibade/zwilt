@@ -2,17 +2,32 @@ import Arrow from "./Arrow";
 
 interface Props {
     direction?: string;
-    color: string;
+    arrowColor: string;
     bgColor: string;
     size: string;
     radius?: string;
+    arrowHeight?: string;
+    arrowWidth?: string;
 }
 
-const BoundedArrow = ({ direction, color, size, bgColor, radius }: Props) => {
+const BoundedArrow = ({
+    direction,
+    arrowColor,
+    size,
+    bgColor,
+    radius,
+    arrowHeight,
+    arrowWidth,
+}: Props) => {
     return (
         <div
             className={`flex flex-col justify-center items-center rounded-2xl  ${size} ${bgColor} ${radius}`}>
-            <Arrow color={color} direction={direction} />
+            <Arrow
+                color={arrowColor}
+                direction={direction}
+                height={arrowHeight}
+                width={arrowWidth}
+            />
         </div>
     );
 };

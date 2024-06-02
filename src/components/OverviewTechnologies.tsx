@@ -17,7 +17,7 @@ const OverviewTechnologies = ({ header, technologies, arrow }: Props) => {
                             <BoundedArrow
                                 size="size-24"
                                 bgColor="bg-[#F6F6F6]"
-                                color="black"
+                                arrowColor="black"
                                 direction="-rotate-180"
                             />
                         </li>
@@ -44,7 +44,7 @@ const OverviewTechnologies = ({ header, technologies, arrow }: Props) => {
                             <BoundedArrow
                                 size="size-24"
                                 bgColor="bg-[#F6F6F6]"
-                                color="black"
+                                arrowColor="black"
                             />
                         </li>
                     )}
