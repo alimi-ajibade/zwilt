@@ -7,7 +7,7 @@ const Hero = () => {
     return (
         <div>
             <div className="w-[41.94rem] h-[8rem] mx-auto mt-36">
-                <h1 className={`${styles.sectionHeader}`}>
+                <h1 className={`${styles.sectionHeader} text-center`}>
                     Finding the right fit{" "}
                     <span>
                         <img

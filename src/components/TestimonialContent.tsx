@@ -15,7 +15,7 @@ const TestimonialContent = () => {
                                 <img src={jasonAvatar} />
                             </span>{" "}
                             at{" "}
-                            <span className="block pt-3 pl-2">
+                            <span className="block pt-3">
                                 <img src={groovehq} />
                             </span>
                         </h1>

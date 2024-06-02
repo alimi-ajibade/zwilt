@@ -9,7 +9,7 @@ const OverviewContent = () => {
     return (
         <div className="pt-[11.44rem]">
             <div className="w-[61.06rem] h-32 mx-auto">
-                <h1 className={`${styles.sectionHeader}`}>
+                <h1 className={`${styles.sectionHeader} text-center`}>
                     Your one-stop marketplace for finding the talent your
                     business needs.
                 </h1>
