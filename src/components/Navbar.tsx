@@ -5,7 +5,7 @@ import { SectionWrapper } from "../hoc";
 
 const Navbar = () => {
     return (
-        <nav className="flex flex-row justify-between items-center rounded-2xl py-2 pl-[1.79rem] pr-[0.57rem] bg-[#525AA0] mt-[25px] shadow-xl">
+        <nav className="flex flex-row justify-between items-center rounded-2xl py-2 pl-[1.79rem] pr-[0.57rem] bg-[#525AA0] mt-[25px] shadow-2xl">
             <div>
                 <img src={logo} sizes="5" />
             </div>

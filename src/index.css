@@ -1,3 +1,8 @@
 @tailwind base;
+@layer base {
+    html {
+        @apply text-[#202229];
+    }
+}
 @tailwind components;
 @tailwind utilities;
