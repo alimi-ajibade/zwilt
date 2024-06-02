@@ -13,7 +13,9 @@ const OverviewStat = ({ header }: Props) => {
             <ul className="w-[21rem] grid grid-cols-2 grid-rows-2 gap-y-2 mt-5">
                 {stats.map((stat) => {
                     return (
-                        <li className="text-base font-normal flex flex-row items-center gap-x-[0.31rem]">
+                        <li
+                            className="text-base font-normal flex flex-row items-center gap-x-[0.31rem]"
+                            key={stat.value}>
                             <img src={stat.icon} />
                             <span className="opacity-80">{stat.value}</span>
                         </li>

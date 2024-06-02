@@ -25,7 +25,7 @@ const OverviewTechnologies = ({ header, technologies, arrow }: Props) => {
 
                     {technologies.map((element) => {
                         return (
-                            <li className="w-24">
+                            <li className="w-24" key={element.value}>
                                 <div className="size-24 flex flex-row items-center justify-center rounded-full bg-[#F6F6F6]">
                                     <img
                                         src={element.icon}
