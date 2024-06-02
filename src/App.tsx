@@ -1,4 +1,5 @@
 import "./App.css";
+import Assurance from "./components/Assurance";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Overview from "./components/Overview";
@@ -11,6 +12,7 @@ function App() {
             <Hero />
             <Overview />
             <Testimonial />
+            <Assurance />
         </div>
     );
 }

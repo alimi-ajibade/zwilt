@@ -17,6 +17,8 @@ import quotes from "../assets/quote.svg";
 import jasonAvatar from "../assets/avatar.png";
 import groovehq from "../assets/groovehq.svg";
 import groovesm from "../assets/groovesm.svg";
+import play from "../assets/play.svg";
+import playWhite from "../assets/playWhite.svg";
 
 const navlinks = [
     "Find Work",
@@ -87,6 +89,18 @@ const testimonial = {
         "Zwilt enabled us to deliver on time and they’ve been heavy hitters in our corner since. Zwilt enabled us to deliver on time and they’ve been heavy hitters in our corner since. Zwilt enabled us to deliver on time and they’ve been heavy hitters.",
 };
 
+const assurance = [
+    { value: "Resume Screening" },
+    {
+        value: "Video Interview",
+        description:
+            "Candidates are assessed through skill based questions in a virtual setting. Allowing you to gauge personality and cultural fit.",
+    },
+    { value: "Technical Evaluation" },
+    { value: "Application Review" },
+    { value: "Lets get to work" },
+];
+
 export {
     logo,
     heroImage,
@@ -100,4 +114,7 @@ export {
     groovehq,
     groovesm,
     testimonial,
+    assurance,
+    play,
+    playWhite,
 };
