@@ -170,6 +170,17 @@ const whyUs = [
     },
 ];
 
+const faqs = [
+    { value: "I want to work part-time, is that possible", extra: true },
+    { value: "How long are the average projects?" },
+    { value: "How does the payment works?" },
+    { value: "How much can I earn?" },
+    { value: "I want to work part-time, is that possible", extra2: true },
+    { value: "How long are the average projects?" },
+    { value: "How long are the average projects?" },
+    { value: "How much can I earn?" },
+];
+
 export {
     logo,
     heroImage,
@@ -188,4 +199,5 @@ export {
     playWhite,
     gettingStarted,
     whyUs,
+    faqs,
 };
