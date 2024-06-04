@@ -25,6 +25,9 @@ import three from "../assets/3.svg";
 import group1 from "../assets/group1.png";
 import group2 from "../assets/group2.png";
 import group3 from "../assets/group3.png";
+import whyUs1 from "../assets/whyUs1.png";
+import whyUs2 from "../assets/whyUs2.png";
+import whyUs3 from "../assets/whyUs3.png";
 
 const navlinks = [
     "Find Work",
@@ -132,6 +135,41 @@ const gettingStarted = [
     },
 ];
 
+const whyUs = [
+    {
+        header: "Onboard without the risk.",
+        reasons: [
+            "We pick the best for you to select",
+            "Thousands of vetted candidates in dozens of categories.",
+            "Risk-free resource swapping for the best fit.",
+        ],
+        bulletinColor: "bg-[#50589F]",
+        image: whyUs1,
+    },
+    {
+        header: `An open 
+        book`,
+        reasons: [
+            "Easy and transparent one-to-one chat with candidates.",
+            "Simple and convenient payment methods.",
+            "Review past ratings.",
+        ],
+        bulletinColor: "bg-[#FFBE2E]",
+        image: whyUs2,
+    },
+    {
+        header: `Stay in the
+        loop.`,
+        reasons: [
+            "Track your staff activity down to every minute with screenshots.",
+            "Comprehensive timesheet data to process payments.",
+            "Create projects to organize and assign tasks more effectively.",
+        ],
+        bulletinColor: "bg-[#C7F4C2]",
+        image: whyUs3,
+    },
+];
+
 export {
     logo,
     heroImage,
@@ -149,4 +187,5 @@ export {
     play,
     playWhite,
     gettingStarted,
+    whyUs,
 };

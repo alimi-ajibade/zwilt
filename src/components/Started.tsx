@@ -14,7 +14,7 @@ const Started = () => {
             <ul className="mt-10">
                 {gettingStarted.map((e) => {
                     return (
-                        <li className="mt-5">
+                        <li className="mt-5" key={e.bgColor}>
                             <SkewedContainer
                                 bgColor={e.bgColor}
                                 height="24.22rem"
