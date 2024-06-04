@@ -3,7 +3,7 @@ import styles from "../styles";
 import { development, design } from "../constants";
 import OverviewStat from "./OverviewStat";
 import OverviewTechnologies from "./OverviewTechnologies";
-import BoundedArrow from "./BoundedArrow";
+import Link from "./Link";
 
 const OverviewContent = () => {
     return (
@@ -34,15 +34,13 @@ const OverviewContent = () => {
                     arrow="first"
                 />
 
-                <div className="flex flex-row items-center gap-x-3">
-                    <BoundedArrow
-                        bgColor="bg-black"
-                        arrowColor="#EDEFFF"
-                        size="size-[4.63rem]"
-                        radius="rounded-3xl"
-                    />
-                    <div className="text-xl font-medium">Explore More</div>
-                </div>
+                <Link
+                    width="w-56"
+                    height="h-20"
+                    size="size-[4.63rem]"
+                    text="Explore More"
+                    textSize="text-xl"
+                />
                 <div className="text-xl font-medium opacity-80">
                     <span className="font-bold">30 more </span>
                     <span className="font-normal">to explore</span>

@@ -3,6 +3,7 @@ import Assurance from "./components/Assurance";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Overview from "./components/Overview";
+import Started from "./components/Started";
 import Testimonial from "./components/Testimonial";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
             <Overview />
             <Testimonial />
             <Assurance />
+            <Started />
         </div>
     );
 }

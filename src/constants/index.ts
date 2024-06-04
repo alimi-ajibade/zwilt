@@ -19,6 +19,12 @@ import groovehq from "../assets/groovehq.svg";
 import groovesm from "../assets/groovesm.svg";
 import play from "../assets/play.svg";
 import playWhite from "../assets/playWhite.svg";
+import one from "../assets/1.svg";
+import two from "../assets/2.svg";
+import three from "../assets/3.svg";
+import group1 from "../assets/group1.png";
+import group2 from "../assets/group2.png";
+import group3 from "../assets/group3.png";
 
 const navlinks = [
     "Find Work",
@@ -101,6 +107,31 @@ const assurance = [
     { value: "Lets get to work" },
 ];
 
+const gettingStarted = [
+    {
+        bgColor: "bg-[#EDEFFF]",
+        number: one,
+        header: "Find your next star performer.",
+        detail: "Explore the vast Zwilt marketplace to find the candidate that meets your needs.",
+        image: group1,
+    },
+    {
+        bgColor: "bg-[#FFF7E1]",
+        number: two,
+        header: "Evaluate to your heart’s content.",
+        detail: "Assess the candidate through work history, transparent tests and video interviews.",
+        image: group2,
+    },
+    {
+        bgColor: "bg-[#F3F3F3]",
+        number: three,
+        header: `Start building
+        your team.`,
+        detail: "Onboard your candidate right away and start creating the next big thing.",
+        image: group3,
+    },
+];
+
 export {
     logo,
     heroImage,
@@ -117,4 +148,5 @@ export {
     assurance,
     play,
     playWhite,
+    gettingStarted,
 };
