@@ -11,17 +11,18 @@ interface Props {
 }
 
 const Link = ({ width, height, text, textSize, size, radius }: Props) => {
-    const [move, _setMove] = useState(false);
+    const [move, setMove] = useState(false);
     return (
         <div
-            className={`relative flex flex-row items-center gap-x-3 ${width} ${height}`}
-            // onMouseEnter={() => setMove(true)}
-            // onMouseLeave={() => setMove(false)}
-        >
+            className={`relative flex flex-row items-center ${width} ${height} ${
+                radius || "rounded-2xl"
+            } hover:bg-black transition-all ease-in-out delay-150`}
+            onMouseEnter={() => setMove(true)}
+            onMouseLeave={() => setMove(false)}>
             <div
                 className={`inline-block absolute left-0 ${
-                    move ? "translate-x-full" : ""
-                }`}>
+                    move ? "translate-x-[190%]" : ""
+                } transition-all ease-in-out delay-150`}>
                 <BoundedArrow
                     bgColor="bg-black"
                     arrowColor="#EDEFFF"
@@ -31,8 +32,8 @@ const Link = ({ width, height, text, textSize, size, radius }: Props) => {
             </div>
             <div
                 className={`inline-block absolute right-0 ${textSize} font-medium ${
-                    move ? "-translate-x-full" : ""
-                }`}>
+                    move ? "-translate-x-[70%] text-white" : ""
+                } transition-all ease-in-out delay-150`}>
                 {text}
             </div>
         </div>
