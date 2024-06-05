@@ -181,6 +181,13 @@ const faqs = [
     { value: "How much can I earn?" },
 ];
 
+const footer = [
+    ["PLATFORM", "Find Work", "Find Talent", "Categories", "About Us"],
+    ["CATEGORIES", "Data Science", "IT & Networking", "Web & Mobile"],
+    ["HELP", "FAQ", "Contact Us"],
+    ["GET IN TOUCH @", "Instagram", "LinkedIn", "Twitter"],
+];
+
 export {
     logo,
     heroImage,
@@ -200,4 +207,5 @@ export {
     gettingStarted,
     whyUs,
     faqs,
+    footer,
 };
