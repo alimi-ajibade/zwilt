@@ -27,7 +27,10 @@ const Hero = () => {
             </div>
 
             <div className="flex flex-row justify-between w-[35.63rem] h-[4.63rem] border-[0.09rem] border-[#F0F0F0] rounded-2xl mx-auto mt-8 overflow-hidden">
-                <input disabled className="grow h-full disabled:bg-white" />
+                <div className="grow h-full text-base flex flex-row items-center pl-8 disabled:bg-white">
+                    <span className="font-semibold ">Looking for </span>
+                    <span>&nbsp; design</span>|
+                </div>
                 <div className="flex flex-col justify-center items-center basis-[4.63rem] rounded-2xl bg-[#FFBE2E]">
                     <Arrow color="#202229" />
                 </div>
