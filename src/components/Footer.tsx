@@ -13,7 +13,7 @@ const Footer = () => {
                 </div>
             </SkewedContainer>
 
-            <div className="w-full h-[41px] bg-[#202229] mt-8 border-t flex flex-row items-center justify-between px-[70px]">
+            <div className="absolute -bottom-10 left-0  w-full h-[41px] bg-[#202229] mt-8 border-t flex flex-row items-center justify-between px-[70px]">
                 <div className="text-base text-white">
                     All rights reserved by Zwilt
                 </div>
