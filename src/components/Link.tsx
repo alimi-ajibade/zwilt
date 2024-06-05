@@ -15,8 +15,9 @@ const Link = ({ width, height, text, textSize, size, radius }: Props) => {
     return (
         <div
             className={`relative flex flex-row items-center gap-x-3 ${width} ${height}`}
-            onMouseEnter={() => setMove(true)}
-            onMouseLeave={() => setMove(false)}>
+            // onMouseEnter={() => setMove(true)}
+            // onMouseLeave={() => setMove(false)}
+        >
             <div
                 className={`inline-block absolute left-0 ${
                     move ? "translate-x-full" : ""
