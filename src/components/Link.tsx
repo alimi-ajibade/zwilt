@@ -11,7 +11,7 @@ interface Props {
 }
 
 const Link = ({ width, height, text, textSize, size, radius }: Props) => {
-    const [move, setMove] = useState(false);
+    const [move, _setMove] = useState(false);
     return (
         <div
             className={`relative flex flex-row items-center gap-x-3 ${width} ${height}`}
